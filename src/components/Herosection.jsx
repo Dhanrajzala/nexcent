@@ -6,7 +6,7 @@ import image3 from '../assets/images/image3.jpg';
 
 const images = [image21, image12, image3];
 
-const HeroSection = () => {
+const Herosection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -58,4 +58,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Herosection;
