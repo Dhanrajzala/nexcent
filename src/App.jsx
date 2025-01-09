@@ -1,7 +1,7 @@
 // App.jsx
 import React from 'react';
 import { Navbar } from './components/Navbar';
-import HeroSection from './components/HeroSection';
+import Herosection from './components/Herosection';
 import ClientsSection from './components/ClientsSection';
 import FeaturesSection from './components/FeaturesSection';
 import InfoSection from './components/InfoSection';
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
+      <Herosection />
       <ClientsSection />
       <FeaturesSection />
       <InfoSection/>
